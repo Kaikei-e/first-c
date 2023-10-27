@@ -49,8 +49,8 @@ cmake_ninja_workdir = /home/koko/CLionProjects/first-c/cmake-build-debug/
 
 build cmake_object_order_depends_target_untitled: phony || CMakeFiles/untitled.dir
 
-build CMakeFiles/untitled.dir/main.c.o: C_COMPILER__untitled_unscanned_Debug /home/koko/CLionProjects/first-c/main.c || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles/untitled.dir/main.c.o.d
+build CMakeFiles/untitled.dir/xc.c.o: C_COMPILER__untitled_unscanned_Debug /home/koko/CLionProjects/first-c/xc.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles/untitled.dir/xc.c.o.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir
@@ -63,7 +63,7 @@ build CMakeFiles/untitled.dir/main.c.o: C_COMPILER__untitled_unscanned_Debug /ho
 #############################################
 # Link the executable untitled
 
-build untitled: C_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/main.c.o
+build untitled: C_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/xc.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/untitled.dir
   POST_BUILD = :

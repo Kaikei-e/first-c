@@ -1,3 +1,9 @@
 .idea
 bin
 cmake-build-debug
+
+*~
+*.o
+tmp*
+a.out
+xc
